@@ -69,7 +69,7 @@ nav ul li a:hover {
   display: inline-block;
   position: relative;
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   }
 
 .imagemCapa div {
@@ -159,10 +159,10 @@ a > #textoCards {
 
 .footer {
   padding: 2% ;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
+  display: block;
   background-color: rgb(15, 45, 0);
   color: white;
   text-align: center;
