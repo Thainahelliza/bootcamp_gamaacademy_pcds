@@ -1,0 +1,149 @@
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+body {
+  background-color: rgb(235, 250, 220);
+}
+
+/*NAVBAR*/
+
+#imagemLogo{
+  max-width: 90px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  margin-bottom: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(235, 250, 220);
+}
+
+.header {
+  background: rgb(15, 45, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1%;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background: rgb(75, 115, 0);
+  transition: .4s;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+/*inserir solução para menu mobile*/
+
+/*CAPA*/
+
+.imagemCapa {
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  }
+
+.imagemCapa div {
+  position: absolute;
+  bottom:20%;
+  right: 6%;
+  text-align: right;
+  padding: 2%;
+  font-size: 3.5rem;
+  color: rgb(15, 45, 0);
+  font:bolder;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(15, 45, 0);
+}
+
+p {
+  text-align: justify;
+  font-size: 1.8rem;
+  color: rgb(15, 45, 0);
+  padding: 3%;
+}
+
+#sobre {
+  color:rgb(15, 45, 0);
+}
+
+/*CARDS*/
+
+.cards1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row: inherit;
+  grid-gap: 2%;
+  margin: 3%;
+  max-width: 600px;
+ }
+ 
+#coronavirus {
+  max-width: 600px;
+}
+
+.cards2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2%;
+}
+
+.item3Cards2 {
+  grid-row: 1 / 3;
+}
+
+a > #textoCards {
+  color:rgb(15, 45, 0);
+}
+
+/*Rodapé*/
+
+.rodape {
+  text-align: center;
+  color: rgb(15, 45, 0);
+}
+
+.linkFonte{
+  color: rgb(75, 115, 0) ;
+}
+
+.conteudo {
+  margin-left: 5%;
+}
+
+.cabecalho-topico > p {
+  padding-left: 0% ;
+  padding-top: 0%;
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
